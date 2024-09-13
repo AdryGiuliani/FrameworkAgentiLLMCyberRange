@@ -1,0 +1,30 @@
+
+---
+- name: Setup Windows 11 Server
+  hosts: all
+  tasks:
+    - name: Install Internet Information Services (IIS)
+      win_feature:
+        name: Web-Server
+        state: present
+
+    - name: Install SQL Server Express
+      win_chocolatey:
+        name: sql-server-express
+        state: present
+
+    - name: Deploy Custom Financial Web Application
+      win_copy:
+        src: /path/to/your/application
+        dest: C:\inetpub\wwwroot\your_application
+        recurse: yes
+
+    - name: Install ClamAV (Antivirus software)
+      win_chocolatey:
+        name: clamav
+        state: present
+
+    - name: Install Log aggregation tool (Fluentd)
+      win_chocolatey:
+        name: fluentd
+        state: present

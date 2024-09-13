@@ -1,0 +1,29 @@
+
+---
+- name: Setup software on Windows 11
+  hosts: all
+  tasks:
+    - name: Install LibreOffice (alternative to Microsoft Office 2019)
+      win_chocolatey:
+        name: libreoffice-fresh
+        state: present
+
+    - name: Install Thunderbird (alternative to Outlook)
+      win_chocolatey:
+        name: thunderbird
+        state: present
+
+    - name: Install Firefox (Web browser)
+      win_chocolatey:
+        name: firefox
+        state: present
+
+    - name: Install Windows Defender ATP (Endpoint Detection and Response software)
+      win_feature:
+        name: Windows-Defender-ATP
+        state: present
+
+    - name: Run custom script
+      win_shell: |
+        # Your custom script here
+        Write-Output "Running custom script"

@@ -1,0 +1,24 @@
+
+---
+- name: Install required software on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install medical device manager (OpenEMR)
+      apt:
+        name: openemr
+        state: present
+
+    - name: Install backup tool (Bacula)
+      apt:
+        name: bacula
+        state: present
+
+    - name: Install encryption tool (VeraCrypt)
+      apt:
+        name: veracrypt
+        state: present

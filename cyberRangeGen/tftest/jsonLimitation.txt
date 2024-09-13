@@ -1,0 +1,16 @@
+{
+"cli_location" : "local:iso/",
+"cloud_images_available": ["ubuntu-24.04-desktop-amd64.iso","lubuntu2204-ci.iso","win11s-ci.iso"],
+"resources": {"availableRam": "131072MB","availableCPU_cores": "16 Core","available_disk_storage": "1000GB"},
+"target_node": "lab",
+"internal_network": {
+    "network_model": "virtio",
+    "network_bridge": "vmbr3",
+    "tag" : 10
+},
+"internet_network": {
+    "network_model": "virtio",
+    "network_bridge": "vmbr0"
+},
+"storage_pool" : "local-lvm"
+}

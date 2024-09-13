@@ -1,0 +1,35 @@
+
+---
+- name: Install security tools on Kali Linux
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Update apt package index
+      apt:
+        update_cache: yes
+
+    - name: Install Metasploit
+      apt:
+        name: metasploit-framework
+        state: present
+    - name: Install Nmap
+      apt:
+        name: nmap
+        state: present
+
+    - name: Install Wireshark
+      apt:
+        name: wireshark
+        state: present
+        install_recommends: no
+
+    - name: Ensure non-root users can capture packets with Wireshark
+      command: dpkg-reconfigure wireshark-common
+      args:
+        creates: /usr/share/wireshark/init.lua
+    - name: Add current user to wireshark group
+      user:
+        name: "{{ ansible_user }}"
+        groups: wireshark
+        append: yes

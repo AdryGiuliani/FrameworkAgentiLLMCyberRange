@@ -1,0 +1,25 @@
+
+---
+- name: Setup database server, backup tool, and encryption tool on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Update apt package index
+      apt:
+        update_cache: yes
+
+    - name: Install PostgreSQL database server
+      apt:
+        name: postgresql
+        state: present
+
+    - name: Install BorgBackup tool
+      apt:
+        name: borgbackup
+        state: present
+
+    - name: Install GnuPG encryption tool
+      apt:
+        name: gnupg
+        state: present

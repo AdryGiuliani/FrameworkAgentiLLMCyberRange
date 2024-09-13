@@ -1,0 +1,19 @@
+
+---
+- name: Install software on Lubuntu 22.04
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Thunderbird
+      apt:
+        name: thunderbird
+        state: present
+
+    - name: Install LibreOffice
+      apt:
+        name: libreoffice
+        state: present

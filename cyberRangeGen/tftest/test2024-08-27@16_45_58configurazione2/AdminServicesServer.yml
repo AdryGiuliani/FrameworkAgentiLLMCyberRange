@@ -1,0 +1,25 @@
+
+---
+- name: Install necessary software on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Update apt package index
+      apt:
+        update_cache: yes
+
+    - name: Install admin services manager (Cockpit)
+      apt:
+        name: cockpit
+        state: present
+
+    - name: Install backup tool (Bacula)
+      apt:
+        name: bacula
+        state: present
+
+    - name: Install encryption tool (GnuPG)
+      apt:
+        name: gnupg
+        state: present

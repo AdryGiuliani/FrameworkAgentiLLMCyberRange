@@ -1,0 +1,19 @@
+
+---
+- name: Install software on Windows 11
+  hosts: all
+  tasks:
+    - name: Ensure Chocolatey is installed
+      win_chocolatey:
+        name: chocolatey
+        state: present
+
+    - name: Install OpenVAS (alternative to Nessus)
+      win_chocolatey:
+        name: openvas
+        state: present
+
+    - name: Install Wireshark
+      win_chocolatey:
+        name: wireshark
+        state: present

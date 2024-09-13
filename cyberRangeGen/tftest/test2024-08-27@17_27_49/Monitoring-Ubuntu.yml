@@ -1,0 +1,66 @@
+
+---
+- name: Install ELK Stack and Suricata on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Update and upgrade apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+    - name: Install dependencies
+      apt:
+        name: 
+          - apt-transport-https
+          - openjdk-11-jdk
+          - wget
+          - gnupg
+        state: present
+    - name: Add Elasticsearch GPG key
+      apt_key:
+        url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+        state: present
+    - name: Add Elasticsearch repository
+      apt_repository:
+        repo: "deb https://artifacts.elastic.co/packages/7.x/apt stable main"
+        state: present
+    - name: Install Elasticsearch
+      apt:
+        name: elasticsearch
+        state: present
+    - name: Enable and start Elasticsearch service
+      systemd:
+        name: elasticsearch
+        enabled: yes
+        state: started
+    - name: Install Logstash
+      apt:
+        name: logstash
+        state: present
+    - name: Enable and start Logstash service
+      systemd:
+        name: logstash
+        enabled: yes
+        state: started
+    - name: Install Kibana
+      apt:
+        name: kibana
+        state: present
+    - name: Enable and start Kibana service
+      systemd:
+        name: kibana
+        enabled: yes
+        state: started
+    - name: Add Suricata PPA
+      apt_repository:
+        repo: ppa:oisf/suricata-stable
+        state: present
+    - name: Install Suricata
+      apt:
+        name: suricata
+        state: present
+    - name: Enable and start Suricata service
+      systemd:
+        name: suricata
+        enabled: yes
+        state: started

@@ -1,0 +1,19 @@
+
+---
+- name: Install software on Windows 11
+  hosts: all
+  tasks:
+    - name: Ensure Chocolatey is installed
+      win_chocolatey:
+        name: chocolatey
+        state: present
+
+    - name: Install Gophish (Phishing Email Simulator)
+      win_chocolatey:
+        name: gophish
+        state: present
+
+    - name: Install Caldera (Ransomware Simulator)
+      win_chocolatey:
+        name: caldera
+        state: present

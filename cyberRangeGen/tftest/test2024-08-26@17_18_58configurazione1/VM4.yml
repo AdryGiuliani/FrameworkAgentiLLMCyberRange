@@ -1,0 +1,37 @@
+
+---
+- name: Setup tools on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Update and upgrade apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+
+    - name: Install OpenSSH Server
+      apt:
+        name: openssh-server
+        state: present
+
+    - name: Install Nmap
+      apt:
+        name: nmap
+        state: present
+
+    - name: Install Netcat
+      apt:
+        name: netcat
+        state: present
+
+    - name: Install Log aggregation tool (rsyslog)
+      apt:
+        name: rsyslog
+        state: present
+
+    - name: Deploy custom scripts
+      copy:
+        src: /path/to/local/scripts/
+        dest: /usr/local/bin/
+        mode: '0755'

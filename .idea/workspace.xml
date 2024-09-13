@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bccb2f2-78d5-4bb5-8119-d6dbfc5e3716" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FrameworkAgentiCyberRange.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/GraphLLMv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/TFBuilding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/jsonLimitation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/VM1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/VM2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/VM3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/VM4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/VM5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/AdminServicesServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/EmployeeWorkstation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/MedicalDeviceServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/PatientDatabaseServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Attacker-Kali.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Monitoring-Ubuntu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/User-Simulation-Lubuntu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Vulnerable-Server-Win11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/usages.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2m1erp9nSOAqvkl5dNHijqYRw8y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/giuli/PycharmProjects/FrameworkAgentiCyberRange",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiCyberRange" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bccb2f2-78d5-4bb5-8119-d6dbfc5e3716" name="Changes" comment="" />
+      <created>1726248710970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726248710970</updated>
+    </task>
+    <servers />
+  </component>
+</project>

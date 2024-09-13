@@ -1,0 +1,25 @@
+
+---
+- name: Setup software on Windows 11
+  hosts: all
+  tasks:
+    - name: Install File Server Resource Manager
+      win_feature:
+        name: FS-Resource-Manager
+        state: present
+
+    - name: Install Backup software (Veeam Agent for Microsoft Windows)
+      win_chocolatey:
+        name: veeam-agent
+        state: present
+
+    - name: Ensure Windows Defender is enabled
+      win_feature:
+        name: Windows-Defender-Features
+        state: present
+
+    - name: Ensure Windows Defender service is running
+      win_service:
+        name: WinDefend
+        start_mode: auto
+        state: started
