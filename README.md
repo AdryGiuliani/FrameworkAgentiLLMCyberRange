@@ -2,7 +2,7 @@
 
 ### Tesi di laurea triennale in Ingegneria informatica presso Università della Calabria (UNICAL).
 
-
+![Framework overview](/diagrammaLegendTopLEft.png)
 
 I contributi principali del presente lavoro di tesi sono i seguenti:
 
