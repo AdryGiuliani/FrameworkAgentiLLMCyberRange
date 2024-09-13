@@ -1,3 +1,15 @@
+total token: 0 ; total cost: 0.0
+total token: 0 ; total cost: 0.0
+total token: 513 ; total cost: 0.002565
+total token: 0 ; total cost: 0.0
+total token: 1025 ; total cost: 0.005125
+total token: 1025 ; total cost: 0.005125
+total token: 1250 ; total cost: 0.00625
+total token: 2021 ; total cost: 0.010105
+total token: 0 ; total cost: 0.0
+total token: 925 ; total cost: 0.004625000000000001
+total token: 360 ; total cost: 0.0018000000000000002
+total token: 906 ; total cost: 0.00453
 2024-08-11@14_14_54here's the request:
 genera una macchina con risorse medie e che contenga software tipo editor di testo
 total token: 1723 ; total cost: 0.008615
