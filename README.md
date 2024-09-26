@@ -19,3 +19,8 @@ I contributi principali del presente lavoro di tesi sono i seguenti:
 
 4.Modularità della generazione
 >L'approccio utilizzato rende il sistema "future-proof", permettendo di adeguare la generazione alle ultime versioni di plugin terraform ed a diversi hypervisor, oltre alla possibilità, grazie al supporto offerto dalle librerie LangChain, di intercambiare facilmente i modelli LLM assegnati alle task di creazione risorse e generazione file, in modo da poter approfittare di future riduzioni di costi ed incrementi alla qualità di generazione offerti di eventuali modelli futuri.
+
+
+Per l'utilizzo è necessario:
+-definire il file provider.tf come suggerito
+-predisporre come variabile ENV la propria api key openai
