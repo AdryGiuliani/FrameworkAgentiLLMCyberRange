@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bccb2f2-78d5-4bb5-8119-d6dbfc5e3716" name="Changes" comment="github loading">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/usages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/usages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +26,12 @@
     &quot;assignee&quot;: &quot;AdryGiuliani&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AdryGiuliani/FrameworkAgentCyberRange&quot;,
-    &quot;accountId&quot;: &quot;a196e61d-0784-426d-a41b-4d566afdc95d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AdryGiuliani/FrameworkAgentiLLMCyberRange.git",
+    "accountId": "a196e61d-0784-426d-a41b-4d566afdc95d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
