@@ -6,7 +6,7 @@ from dotenv import dotenv_values
 from langchain_community.callbacks import get_openai_callback
 from langchain_core.messages import HumanMessage, BaseMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_core.tools import Tool, tool
+from langchain_core.tools import  tool
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph
 from langgraph.prebuilt import ToolNode
@@ -15,12 +15,11 @@ from AgentState import BuilderAgentState
 from TFBuilding import TFBuilder
 
 dotenv.load_dotenv()
-conf = dotenv_values("../.env")
+conf = dotenv_values("../../pythonProject1/.env")
 
 
 def playbookgen(args, osType):
     llm = ChatOpenAI(temperature=0.1, model=conf["OP_MODEL"])
-
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system",
@@ -126,13 +125,13 @@ class Generator:
 
     @staticmethod
     @tool
-    def addNotebook(resName: str, args: list[str]):
+    def addNotebook(resName: str, programs: list[str]):
         """
         :param resName: name of resources on which install the software
-        :param args: software names to install (possibly freeware / openSource)
+        :param programs: software names to install (possibly freeware / openSource)
         """
         ostype = Generator.builder.getOs(resName)
-        playbookText = playbookgen(args, ostype)
+        playbookText = playbookgen(programs, ostype)
         Generator.builder.newPlaybook(resName, playbookText)
 
     def runGenerator(self, inpt):

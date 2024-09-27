@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bccb2f2-78d5-4bb5-8119-d6dbfc5e3716" name="Changes" comment="github loading">
-      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/AgentState.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/GraphLLMv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/GraphLLMv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/AdminServicesServer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/AdminServicesServer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/EmployeeWorkstation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/EmployeeWorkstation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/MedicalDeviceServer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/MedicalDeviceServer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/PatientDatabaseServer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/PatientDatabaseServer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58configurazione2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@16_45_58config2/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Attacker-Kali.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/Attacker-Kali.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Monitoring-Ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/Monitoring-Ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/User-Simulation-Lubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/User-Simulation-Lubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/Vulnerable-Server-Win11.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/Vulnerable-Server-Win11.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/test2024-08-27@17_27_49config3/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberRangeGen/tftest/usages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cyberRangeGen/tftest/usages.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +45,12 @@
     &quot;assignee&quot;: &quot;AdryGiuliani&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AdryGiuliani/FrameworkAgentiLLMCyberRange.git",
-    "accountId": "a196e61d-0784-426d-a41b-4d566afdc95d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AdryGiuliani/FrameworkAgentiLLMCyberRange.git&quot;,
+    &quot;accountId&quot;: &quot;a196e61d-0784-426d-a41b-4d566afdc95d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -41,19 +60,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giuli/PycharmProjects/FrameworkAgentiCyberRange&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.GraphLLMv2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/giuli/PycharmProjects/FrameworkAgentiLLMCyberRange/cyberRangeGen/tftest/test2024-08-26@17_18_58configurazione1",
+    "settings.editor.selected.configurable": "preferences.updates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiCyberRange" />
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange\cyberRangeGen\tftest\test2024-08-26@17_18_58configurazione1" />
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange\cyberRangeGen\tftest\test2024-08-27@16_45_58config2" />
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange\cyberRangeGen\tftest\test2024-08-27@17_27_49config3" />
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange" />
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange\cyberRangeGen" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\PycharmProjects\FrameworkAgentiLLMCyberRange" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GraphLLMv2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkAgentiCyberRange" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cyberRangeGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cyberRangeGen/GraphLLMv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GraphLLMv2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
